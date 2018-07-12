@@ -1,0 +1,25 @@
+{
+    "name": "leonardop/gerenciador",
+    "description": "Gerenciador de tarefas",
+    "authors": [
+        {
+            "name": "Leonardo Nascimento",
+            "email": "leonardo.nascimento21@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+    	"psr-4": {
+    		"LEO\\Framework\\": "src",
+    		"App\\": "app"
+    	}
+    },
+
+    "scripts": {
+    	"server": "php -S 0.0.0.0:8080"
+    },
+
+    "config": {
+    	"process-timeout": 0
+    }
+}
